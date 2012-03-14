@@ -12,9 +12,9 @@ with open(os.path.join(here, 'CHANGES.txt')) as f:
 
 requires = ['M2Crypto']
 
-setup(name='PyBrowserID',
-      version='0.4.0',
-      description='Python library for the BrowserID Protocol',
+setup(name='PyVEP',
+      version='0.3.2',
+      description='Python library for the Verified Email Protocol',
       long_description=README + '\n\n' + CHANGES,
       license='MPLv2.0',
       classifiers=[
